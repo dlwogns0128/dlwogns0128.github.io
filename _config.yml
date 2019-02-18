@@ -8,7 +8,7 @@
 # Theme Settings
 theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
@@ -16,7 +16,7 @@ title                    : "Programmer"
 title_separator          : "-"
 name                     : "to be a Developer"
 description              : "for study"
-url                      : "" #"https://dlwogns0128.github.io"
+url                      : "https://dlwogns0128.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "dlwogns0128/dlwogns0128.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -31,8 +31,8 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            :  5 #(default)
+    colorscheme          :  "dark" #"light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"

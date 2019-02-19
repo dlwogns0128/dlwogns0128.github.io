@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: \[Algorithm, 수학\] Broken Calculator
+title: "[Algorithm, 수학] Broken Calculator"
 tag: Algorithm, 수학
 
 ---

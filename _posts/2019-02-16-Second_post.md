@@ -1,8 +1,9 @@
 ---
-layout: posts
+layout: post
 title: "[Algorithm, 수학] Broken Calculator"
 tag: Algorithm, 수학, LeetCode
-desricption:  "On a broken calculator that has a number showing on its display, we can perform two operations"
+description: "On a broken calculator that has a number showing on its display, we can perform two operations"
+categories: Algorithm
 
 ---
 

@@ -1,6 +1,7 @@
 ---
-layout: posts
-title: Windows 환경에서 jekyll 실행시 CP949 에러 해결 방법 
+layout: post
+title: Windows 환경에서 jekyll 실행시 CP949 에러 해결 방법
+categories: Jekyll 
 
 ---
 
@@ -20,7 +21,6 @@ Github로 블로그 운영을 하려고 잘 만들어진 Jekyll 테마를 가져
 chcp 65001 # 윈도우 터미널에서 사용할 Encoding(Code Page)변경
 $ bundle exec jekyll serve
 ```
-
 
 
 

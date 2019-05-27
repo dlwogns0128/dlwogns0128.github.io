@@ -14,14 +14,14 @@ title: "Programmer"
 subtitle: "to be a great"
 email: hyudlwogns0128@gmail.com
 name: Jaehoon Lee
-description: > 
+description: >
         공부한 것을 정리하자
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: # the subpath of your site, e.g. /blog/
 url: "https://dlwogns0128.github.io" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
+cover: "/assets/DSC_6726_resize.png"
 logo: "/assets/logo.png"
 
 # Build settings

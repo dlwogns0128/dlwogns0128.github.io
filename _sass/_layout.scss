@@ -193,10 +193,14 @@ pre code.hljs {
 /*
 *	Body
 */
+.post-body{
+	background: url("images/pattern.png");
+}
 .page-content {
 	.wrapper {
 		@include outer-container;
 		padding: 1em;
+		background: #fff;
 	}
 	/*
 	*	index.html

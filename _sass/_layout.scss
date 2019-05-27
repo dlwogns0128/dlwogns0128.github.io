@@ -197,6 +197,7 @@ pre code.hljs {
 	background: url("images/pattern.png");
 }
 .page-content {
+	margin-top: 2px;
 	.wrapper {
 		@include outer-container;
 		padding: 1em;
@@ -263,8 +264,11 @@ pre code.hljs {
 			margin-bottom: 1em;
 		}
 		.post-header-container {
+			background: url('images/pattern.png');
 			.scrim {
+				@include outer-container;
 				padding: 2em 1em 1em 1em;
+				background: #fff;
 			}
 		}
 		.post-meta {
@@ -325,6 +329,11 @@ pre code.hljs {
 	*	Pages
 	*/
 	.page {
+		.wrapper {
+			@include outer-container;
+
+			background: #fff;
+		}
 		.post-header {
 			padding: 0.5em 1em 1em 1em;
 			text-align: center;

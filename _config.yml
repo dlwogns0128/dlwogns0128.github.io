@@ -22,7 +22,7 @@ description: >
 baseurl: # the subpath of your site, e.g. /blog/
 url: "https://dlwogns0128.github.io" # the base hostname & protocol for your site
 cover: "/assets/DSC_6726_resize.png"
-logo: "/assets/new_logo.png"
+logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
@@ -188,8 +188,8 @@ social:
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
     fb_image: "/assets/logo.png"
-    fb_image_width: 612
-    fb_image_height: 605
+    fb_image_width: 1046
+    fb_image_height: 964
     fb_image_type: "image/png"
 
     twitter_image: "/assets/logo.png"

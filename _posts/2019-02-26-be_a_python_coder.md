@@ -3,7 +3,7 @@ layout: post
 title: "[파이썬답게 코딩하기] 1장. 파이썬 개념"
 tag: Python, 파이썬, Scpoe, Variable
 description: "파이썬 개념 다지기"
-categories: Python Programming
+categories: [Python Programming]
 
 ---
 
@@ -43,10 +43,10 @@ def read_exception():
 def main():
     print("=== first read ===")
     read_work()
-    
+
     print("=== second read ===")
     read_exception()
-    
+
 if __name__ == "__main__":
     main()
 ```
@@ -55,27 +55,27 @@ if __name__ == "__main__":
     Hello
     World
     === second read ===
-    
+
     ---------------------------------------------------------------------
-    
+
     UnboundLocalError              Traceback (most recent call last)
-    
+
     <ipython-input-2-59410e66baa9> in <module>
-         18 
+         18
          19 if __name__ == "__main__":
     ---> 20     main()
 
 
     <ipython-input-2-59410e66baa9> in main()
-         15 
+         15
          16     print("=== second read ===")
     ---> 17     read_exception()
-         18 
+         18
          19 if __name__ == "__main__":
 
 
     <ipython-input-2-59410e66baa9> in read_exception()
-          6 
+          6
           7 def read_exception():
     ----> 8     print(msg)
           9     msg = "World"
@@ -102,13 +102,13 @@ def write():
 def main():
     print("=== print msg ===")
     print(msg)
-    
+
     print("=== write function ===")
     write()
-    
+
     print("=== print msg ===")
     print (msg)
-    
+
 if __name__ == "__main__":
     main()
 ```
@@ -143,13 +143,13 @@ def write():
 def main():
     print("=== print msg ===")
     print(msg)
-    
+
     print("=== write function ===")
     write()
-    
+
     print("=== print msg ===")
     print (msg)
-    
+
 if __name__ == "__main__":
     main()
 ```
@@ -166,4 +166,3 @@ if __name__ == "__main__":
 ```python
 
 ```
-

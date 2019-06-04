@@ -5,7 +5,7 @@ author: JH
 date:   2019-05-30
 tag: 객체검출, 영상처리, API, Naver AI service
 description: "Naver에서 Cloud Platform을 제공하며 그 중 API를 이용한 AI service가 있다. 네이버의 풍부한(?) 데이터를 기반으로 제공되는 객체 검출 서비스를 한 번 적용시켜보자."
-categories: Image Processing, Naver Cloud Platform
+categories: [Image Processing, Naver Cloud Platform]
 ---
 
 ## Naver Cloud Platform AI service API 호출을 위한 함수

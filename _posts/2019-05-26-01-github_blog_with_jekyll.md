@@ -3,7 +3,7 @@ layout: post
 title: "Github에서 블로그 작성하기 with Jekyll Theme"
 author: JH
 date:   2019-05-26
-tag: Github, 블로그, blog, jekyll
+tag: [Github, 블로그, blog, jekyll]
 description: "jekyll을 이용하여 Github에서 블로그를 운영해보자"
 categories: Jekyll
 

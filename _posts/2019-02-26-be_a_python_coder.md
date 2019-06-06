@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[파이썬답게 코딩하기] 1장. 파이썬 개념"
-tag: Python, 파이썬, Scpoe, Variable
+tag: [Python, 파이썬, Scpoe, Variable]
+date: 2019-02-26
 description: "파이썬 개념 다지기"
 categories: [Python Programming]
 

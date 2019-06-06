@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Windows 환경에서 jekyll 실행시 CP949 에러 해결 방법
-categories: Jekyll 
+date: 2018-07-08
+categories: Jekyll
 
 ---
 
-### Windows 환경에서 Jekyll을 이용하여 Github에 블로그 운영을 할 때 
+### Windows 환경에서 Jekyll을 이용하여 Github에 블로그 운영을 할 때
 
 Github로 블로그 운영을 하려고 잘 만들어진 Jekyll 테마를 가져다가 적용시킬 때 아주 골치 아팠던 error가 있었다.
 

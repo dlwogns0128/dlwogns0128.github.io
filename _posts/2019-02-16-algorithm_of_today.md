@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "[Algorithm, 수학] Broken Calculator"
-tag: Algorithm, 수학, LeetCode
+title: "[Algorithm, LeetCode] 991. Broken Calculator"
+tag: [Algorithm, LeetCode]
+date: 2019-02-16
 description: "On a broken calculator that has a number showing on its display, we can perform two operations"
 categories: Algorithm
 
 ---
 
----
+Acceptance | Difficulty | Like/Dislike
+---|:---:|---:
+`40.1` | `Medium` | `128/51`
 
-## 원문
----
+<br>
 On a broken calculator that has a number showing on its display, we can perform two operations:
 
 -   **Double**: Multiply the number on the display by 2, or;
@@ -72,13 +74,13 @@ Explanation: Use decrement operations 1023 times.
     - **다시 돌아와서** `Y`에서 Half 연산을 하게 되면 `Y/2`가 되고
     - 2번의 Increment 연산을 하여 `Y/2+2`를 **3**번의 같은 연산 횟수로 도달할 수 있다
     - 또한 `Y/2+1`도 **2번의** 연산(Half + Increment)으로 가능하므로
-    - `Y`가 짝수일 때는 **Half**연산을 이용하는 것이  합리적이다 
+    - `Y`가 짝수일 때는 **Half**연산을 이용하는 것이  합리적이다
 
 
-``` c++ 
+``` c++
 class Solution {
 public:
-    
+
     int brokenCalc(int X, int Y) {
         int res = 0;
         if(Y<=X)
@@ -100,5 +102,3 @@ public:
 ## 참고
 ---
 >LeetCode's Solution
-
-

@@ -96,6 +96,7 @@ pre code.hljs {
 	}
 }
 
+
 /*
 *	Header
 */
@@ -277,6 +278,19 @@ pre code.hljs {
 		.post-content {
 			padding: 1em 0;
 		}
+		/* 190606_jaehoon
+		*  blockqoute css.. ?!?
+		*/
+		.post-content blockquote{
+			margin: 1em 0;
+			padding: 5px 10px;
+			border-left: 4px solid #e96900;
+			background: #f8f8f8;
+			border-bottom-right-radius: 2px;
+			border-top-right-radius: 2px;
+			position: relative;
+		}
+
 		.tags {
 			font-size: 0.9em;
 		}

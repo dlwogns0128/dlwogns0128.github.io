@@ -45,6 +45,6 @@ AlexNet이 나타나기 전과 후 대회의 성능 지표인 인식 오류 비�
 
 영상으로부터 특정 물체가 포함된 영역이 잘 지정된다면 어떤 물체인지 분류하는 Classification은 위에서 보았듯이 큰 문제가 되지 않는다. 즉, Object Detection에서 핵심이 되는 것은 물체가 어디에 있는지에 해당하는 Localization이다. 우리가 쉽게 생각해볼 수 있는 방법은 입력 영상으로부터 일정 크기의 영역들을 크기를 달리해가며 탐색하는 것이다. 이동하면서 일정 크기의 영역들을 탐색하는 방식을 sliding window라고 하며 단순하지만 정확한 방법이다. 하지만 다양한 물체 크기와 다수의 물체를 찾기에 연산 시간이 턱없이 부족하므로 이를 개선하기 위한 효율적인 연구들이 진행되어 오고있다.
 
-<img width="286" alt="sliding_window" src="https://user-images.githubusercontent.com/2151950/64918875-1fa38600-d7df-11e9-8e07-33c14ffc3221.png" align="center">
+<img width="30%" alt="sliding_window" src="https://user-images.githubusercontent.com/2151950/64918875-1fa38600-d7df-11e9-8e07-33c14ffc3221.png" align="center">
 
 앞으로 Object Detection 문제를 해결하기 위해 개발되어 온 딥러닝 기반의 모델들을 앞으로 하나씩 살펴보려고 한다. 친절하게도 [Hoya012](https://github.com/hoya012/deep_learning_object_detection) 님께서 친절하게 시간 순으로 논문으로 발표된 딥러닝 기반의 Object Detection Architecture를 그림으로 정리해 주셨다. 여기서 빨간색으로 처리된 것들은 핵심 Architecture로 꼭 이해하고 가는 것이 좋다고 한다.

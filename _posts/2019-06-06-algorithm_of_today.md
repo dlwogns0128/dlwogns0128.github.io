@@ -5,7 +5,6 @@ tag: [Algorithm, LeetCode, Python]
 date: 2019-06-06
 description: "MxN Matrix가 배열로 주어졌을 때 이를 Transpose하는 LeetCode 문제를 풀어보고, 이러한 상황에서 유용한 python의 기법을 알아보자"
 categories: [Algorithm, Python]
-
 ---
 
 Acceptance | Difficulty | Like/Dislike
@@ -100,3 +99,4 @@ class Solution:
     def transpose(self, A: List[List[int]]) -> List[List[int]]:
         return [list(b) for b in zip(*A)]
 ```
+

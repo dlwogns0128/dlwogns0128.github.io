@@ -2,12 +2,11 @@
 layout: post
 title: "[Intro] Object Detection using Deep Learning"
 tag: [Deep Learning, Object Detection, Image Classification, Computer vision]
+author: Jaehoon Lee
 date: 2019-09-16
 description: "딥러닝 기반의 Object Detection 모델들을 공부하기 전에 Image Classification과 기존 컴퓨터 비전에서의 문제 해결 방법들에 대해 알아보자."
 categories: [Deep Learning, Object Detection]
 ---
-
-## [Intro] Object Detection using Deep Learning
 
 
 
@@ -47,4 +46,20 @@ AlexNet이 나타나기 전과 후 대회의 성능 지표인 인식 오류 비�
 
 <img width="30%" alt="sliding_window" src="https://user-images.githubusercontent.com/2151950/64918875-1fa38600-d7df-11e9-8e07-33c14ffc3221.png" align="center">
 
+### Outro
+
+---
+
 앞으로 Object Detection 문제를 해결하기 위해 개발되어 온 딥러닝 기반의 모델들을 앞으로 하나씩 살펴보려고 한다. 친절하게도 [Hoya012](https://github.com/hoya012/deep_learning_object_detection) 님께서 친절하게 시간 순으로 논문으로 발표된 딥러닝 기반의 Object Detection Architecture를 그림으로 정리해 주셨다. 여기서 빨간색으로 처리된 것들은 핵심 Architecture로 꼭 이해하고 가는 것이 좋다고 한다.
+
+![Object detection architectures](https://user-images.githubusercontent.com/2151950/64918986-5fb73880-d7e0-11e9-8de5-c385b7cca6a4.png)
+
+다룰 Object Detection 모델 
+
+1. R-CNN
+2. SPP-Net
+3. Fast R-CNN
+4. Faster R-CNN
+5. YOLO
+6. RetinaNet
+7. ...
